@@ -98,7 +98,7 @@ Padrões de projeto é um mapa, ñ estratégia.
 
 ## Padrões estruturais
 
-Os padrões estruturais vão se preocupar em como as classes e objetos são compostos, ou seja, como é a sua estrutura. O objetivo destes padrões e facilitar o design do sistema identificando maneiras de realizar o relacionamento entre as entidades, deixando o desenvolvedor livre desta preocupações inerentes a alto acoplamento (por exemplo).
+   Os padrões estruturais vão se preocupar em como as classes e objetos são compostos, ou seja, como é a sua estrutura. O objetivo destes padrões e facilitar o design do sistema identificando maneiras de realizar o relacionamento entre as entidades, deixando o desenvolvedor livre desta preocupações inerentes a alto acoplamento (por exemplo).
 
 
 
@@ -125,7 +125,7 @@ Os padrões estruturais vão se preocupar em como as classes e objetos são comp
 
 ## Composite
 
-Funciona como uma pasta do windows, que pode ter arquivos e outras pastas e dentro das outras pastas, mais arquivos e outras pastas, de forma infinita. No composite você terá vários objetos em níveis e você pode navegar sobre esses níveis. É uma árvore.
+   Funciona como uma pasta do windows, que pode ter arquivos e outras pastas e dentro das outras pastas, mais arquivos e outras pastas, de forma infinita. No composite você terá vários objetos em níveis e você pode navegar sobre esses níveis. É uma árvore.
 
 
 ## Decorator
@@ -146,7 +146,7 @@ Funciona como uma pasta do windows, que pode ter arquivos e outras pastas e dent
 
 ## Facade
 
-	Faz um conjunto de coisas por trás de uma única ação, ao ínves de as pessoas acessarem várias partes do projeto, você fornece uma ponta e as pessoas acessam por ela.
+   Faz um conjunto de coisas por trás de uma única ação, ao ínves de as pessoas acessarem várias partes do projeto, você fornece uma ponta e as pessoas acessam por ela.
 
 **Desvantagens**
 
@@ -165,7 +165,7 @@ A ideia desse padrão é abstrair as funcionalidades, usar somente o necessário
 
 ## Proxy
 
-	É uma classe que funciona como camada intermediária entre dois lados. Middleware, etc.
+   É uma classe que funciona como camada intermediária entre dois lados. Middleware, etc.
 
 
 
@@ -181,24 +181,24 @@ A ideia desse padrão é abstrair as funcionalidades, usar somente o necessário
 
 ## Injeção de dependência
 
-	Responsável por injetar as dependências (instâncias). Olha se está implementado, pega uma instância e manda.
+   Responsável por injetar as dependências (instâncias). Olha se está implementado, pega uma instância e manda.
 
 
 ## Observer
 
-	É um padrão de projeto que coloca instâncias observando alteração de valores para notificar os dependentes e atualiza-los.
+   É um padrão de projeto que coloca instâncias observando alteração de valores para notificar os dependentes e atualiza-los.
 
 
 ## State
 
-Permite que o objeto altere seu comportamento quando seu estado mudar, sem precisar de um trilhão de IFs
+   Permite que o objeto altere seu comportamento quando seu estado mudar, sem precisar de um trilhão de IFs
 
 
 ## Template Method
 
-	Algoritmo flexível que possa ser reaproveitável em outras implementações, define um esqueleto para que siga de exemplo para outras implementações.
+   Algoritmo flexível que possa ser reaproveitável em outras implementações, define um esqueleto para que siga de exemplo para outras implementações.
 
 
 ## Visitor
 
-	Permite representar uma operação a ser executada nos elementos de uma estrutura de objetos, permitindo gerar novas operações e não exigindo alteração dos objetos.
+   Permite representar uma operação a ser executada nos elementos de uma estrutura de objetos, permitindo gerar novas operações e não exigindo alteração dos objetos.
